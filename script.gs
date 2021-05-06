@@ -9,6 +9,7 @@ function doGet(e) {
 function process(e) {
   const values =  e.parameter.values;
   
+  // Change the spreadsheet's ID below
   var sh = SpreadsheetApp.openById("1jS6wBqMgd9iUxuqlhMbuwaBLNI5F1zUQuMasn4xc46w").getSheetByName("Sheet1");
   
   if(values != null) {
